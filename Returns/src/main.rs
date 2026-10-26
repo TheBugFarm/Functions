@@ -4,9 +4,9 @@ fn main() {
 
     let result: i32 = square(8);
     println!("The square of 8 is {result}");
-
+    
 }
 
 fn square(number: i32) -> i32 {
-    return number * number;
+    number * number
 }
